@@ -1,0 +1,1098 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Users\jjcha\AppData\Roaming\npm\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.7.0
+2 info using node@v22.15.0
+3 silly config:load:file:C:\Users\jjcha\AppData\Roaming\npm\node_modules\npm\npmrc
+4 silly config:load:file:D:\SCARAVISION\iot-panel\.npmrc
+5 silly config:load:file:C:\Users\jjcha\.npmrc
+6 silly config:load:file:C:\Users\jjcha\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install @tensorflow/tfjs @tensorflow-models/handpose react-webcam
+8 verbose argv "install" "@tensorflow/tfjs" "@tensorflow-models/handpose" "react-webcam"
+9 verbose logfile logs-max:10 dir:D:\SCARAVISION\iot-panel\.npm-cache\_logs\2025-11-09T13_37_47_058Z-
+10 verbose logfile D:\SCARAVISION\iot-panel\.npm-cache\_logs\2025-11-09T13_37_47_058Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly idealTree buildDeps
+13 silly fetch manifest @tensorflow/tfjs@*
+14 http fetch GET 200 https://registry.npmjs.org/@tensorflow%2ftfjs 542ms (cache miss)
+15 silly fetch manifest @tensorflow-models/handpose@*
+16 http fetch GET 200 https://registry.npmjs.org/@tensorflow-models%2fhandpose 1850ms (cache miss)
+17 silly fetch manifest @tensorflow/tfjs-backend-webgl@^4.10.0
+18 http fetch GET 200 https://registry.npmjs.org/@tensorflow%2ftfjs-backend-webgl 1630ms (cache miss)
+19 silly fetch manifest @tensorflow/tfjs-core@4.22.0
+20 http fetch GET 200 https://registry.npmjs.org/@tensorflow%2ftfjs-core 106ms (cache miss)
+21 silly fetch manifest @tensorflow/tfjs-converter@^4.10.0
+22 http fetch GET 200 https://registry.npmjs.org/@tensorflow%2ftfjs-converter 278ms (cache miss)
+23 silly fetch manifest react-webcam@*
+24 http fetch GET 200 https://registry.npmjs.org/react-webcam 550ms (cache miss)
+25 silly fetch manifest react@19.2.0
+26 http fetch GET 200 https://registry.npmjs.org/react 152ms (cache revalidated)
+27 silly fetch manifest react-dom@19.2.0
+28 http fetch GET 200 https://registry.npmjs.org/react-dom 104ms (cache revalidated)
+29 silly placeDep ROOT @tensorflow-models/handpose@0.1.0 OK for: iot-panel@0.1.0 want: *
+30 silly placeDep ROOT @tensorflow/tfjs-backend-webgl@4.22.0 OK for: @tensorflow-models/handpose@0.1.0 want: ^4.10.0
+31 silly placeDep ROOT @tensorflow/tfjs-core@4.22.0 OK for: @tensorflow/tfjs-backend-webgl@4.22.0 want: 4.22.0
+32 silly placeDep ROOT @tensorflow/tfjs-converter@4.22.0 OK for: @tensorflow-models/handpose@0.1.0 want: ^4.10.0
+33 silly placeDep ROOT @tensorflow/tfjs@4.22.0 OK for: iot-panel@0.1.0 want: *
+34 silly placeDep ROOT react-webcam@7.2.0 OK for: iot-panel@0.1.0 want: *
+35 silly fetch manifest rimraf@^3.0.2
+36 silly fetch manifest seedrandom@^3.0.5
+37 silly fetch manifest @types/seedrandom@^2.4.28
+38 silly fetch manifest @types/offscreencanvas@~2019.3.0
+39 silly fetch manifest @tensorflow/tfjs-backend-cpu@4.22.0
+40 silly fetch manifest long@4.0.0
+41 silly fetch manifest node-fetch@~2.6.1
+42 silly fetch manifest @types/long@^4.0.1
+43 silly fetch manifest @webgpu/types@0.1.38
+44 silly fetch manifest @types/offscreencanvas@~2019.7.0
+45 silly fetch manifest yargs@^16.0.3
+46 silly fetch manifest core-js@3.29.1
+47 silly fetch manifest argparse@^1.0.10
+48 silly fetch manifest regenerator-runtime@^0.13.5
+49 silly fetch manifest @tensorflow/tfjs-data@4.22.0
+50 http fetch GET 200 https://registry.npmjs.org/rimraf 83ms (cache miss)
+51 silly fetch manifest @tensorflow/tfjs-layers@4.22.0
+52 http fetch GET 200 https://registry.npmjs.org/argparse 171ms (cache revalidated)
+53 http fetch GET 200 https://registry.npmjs.org/long 211ms (cache miss)
+54 http fetch GET 200 https://registry.npmjs.org/@types%2flong 242ms (cache miss)
+55 http fetch GET 200 https://registry.npmjs.org/regenerator-runtime 246ms (cache miss)
+56 http fetch GET 200 https://registry.npmjs.org/core-js 258ms (cache miss)
+57 http fetch GET 200 https://registry.npmjs.org/yargs 278ms (cache miss)
+58 http fetch GET 200 https://registry.npmjs.org/node-fetch 303ms (cache miss)
+59 http fetch GET 200 https://registry.npmjs.org/seedrandom 758ms (cache miss)
+60 http fetch GET 200 https://registry.npmjs.org/@webgpu%2ftypes 988ms (cache miss)
+61 http fetch GET 200 https://registry.npmjs.org/@types%2fseedrandom 1137ms (cache miss)
+62 http fetch GET 200 https://registry.npmjs.org/@types%2foffscreencanvas 1153ms (cache miss)
+63 http fetch GET 200 https://registry.npmjs.org/@types%2foffscreencanvas 1154ms (cache miss)
+64 http fetch GET 200 https://registry.npmjs.org/@tensorflow%2ftfjs-backend-cpu 1457ms (cache miss)
+65 http fetch GET 200 https://registry.npmjs.org/@tensorflow%2ftfjs-layers 1729ms (cache miss)
+66 http fetch GET 200 https://registry.npmjs.org/@tensorflow%2ftfjs-data 1913ms (cache miss)
+67 silly placeDep ROOT rimraf@3.0.2 OK for: @tensorflow-models/handpose@0.1.0 want: ^3.0.2
+68 silly fetch manifest glob@^7.1.3
+69 http fetch GET 200 https://registry.npmjs.org/glob 66ms (cache miss)
+70 silly placeDep ROOT @tensorflow/tfjs-backend-cpu@4.22.0 OK for: @tensorflow/tfjs@4.22.0 want: 4.22.0
+71 silly placeDep ROOT @tensorflow/tfjs-data@4.22.0 OK for: @tensorflow/tfjs@4.22.0 want: 4.22.0
+72 silly placeDep ROOT seedrandom@3.0.5 OK for: @tensorflow/tfjs-data@4.22.0 want: ^3.0.5
+73 silly placeDep ROOT @tensorflow/tfjs-layers@4.22.0 OK for: @tensorflow/tfjs@4.22.0 want: 4.22.0
+74 silly placeDep node_modules/@tensorflow/tfjs argparse@1.0.10 OK for: @tensorflow/tfjs@4.22.0 want: ^1.0.10
+75 silly placeDep ROOT core-js@3.29.1 OK for: @tensorflow/tfjs@4.22.0 want: 3.29.1
+76 silly placeDep ROOT regenerator-runtime@0.13.11 OK for: @tensorflow/tfjs@4.22.0 want: ^0.13.5
+77 silly placeDep ROOT yargs@16.2.0 OK for: @tensorflow/tfjs@4.22.0 want: ^16.0.3
+78 silly fetch manifest @types/node-fetch@^2.1.2
+79 silly fetch manifest sprintf-js@~1.0.2
+80 silly fetch manifest y18n@^5.0.5
+81 silly fetch manifest cliui@^7.0.2
+82 silly fetch manifest string-width@^4.2.0
+83 silly fetch manifest yargs-parser@^20.2.2
+84 silly fetch manifest get-caller-file@^2.0.5
+85 silly fetch manifest require-directory@^2.1.1
+86 http fetch GET 200 https://registry.npmjs.org/string-width 63ms (cache miss)
+87 http fetch GET 200 https://registry.npmjs.org/sprintf-js 66ms (cache miss)
+88 http fetch GET 200 https://registry.npmjs.org/y18n 73ms (cache miss)
+89 http fetch GET 200 https://registry.npmjs.org/cliui 76ms (cache miss)
+90 http fetch GET 200 https://registry.npmjs.org/require-directory 78ms (cache miss)
+91 http fetch GET 200 https://registry.npmjs.org/@types%2fnode-fetch 84ms (cache miss)
+92 http fetch GET 200 https://registry.npmjs.org/get-caller-file 92ms (cache miss)
+93 http fetch GET 200 https://registry.npmjs.org/yargs-parser 111ms (cache miss)
+94 silly placeDep ROOT @types/seedrandom@2.4.34 OK for: @tensorflow/tfjs-backend-cpu@4.22.0 want: ^2.4.28
+95 silly placeDep ROOT @types/offscreencanvas@2019.3.0 OK for: @tensorflow/tfjs-backend-webgl@4.22.0 want: ~2019.3.0
+96 silly fetch manifest encoding@^0.1.0
+97 http fetch GET 200 https://registry.npmjs.org/encoding 76ms (cache miss)
+98 silly placeDep ROOT @types/long@4.0.2 OK for: @tensorflow/tfjs-core@4.22.0 want: ^4.0.1
+99 silly placeDep node_modules/@tensorflow/tfjs-core @types/offscreencanvas@2019.7.3 OK for: @tensorflow/tfjs-core@4.22.0 want: ~2019.7.0
+100 silly placeDep ROOT @webgpu/types@0.1.38 OK for: @tensorflow/tfjs-core@4.22.0 want: 0.1.38
+101 silly placeDep ROOT long@4.0.0 OK for: @tensorflow/tfjs-core@4.22.0 want: 4.0.0
+102 silly placeDep ROOT node-fetch@2.6.13 OK for: @tensorflow/tfjs-core@4.22.0 want: ~2.6.1
+103 silly fetch manifest whatwg-url@^5.0.0
+104 http fetch GET 200 https://registry.npmjs.org/whatwg-url 96ms (cache miss)
+105 silly placeDep ROOT @types/node-fetch@2.6.13 OK for: @tensorflow/tfjs-data@4.22.0 want: ^2.1.2
+106 silly fetch manifest form-data@^4.0.4
+107 http fetch GET 200 https://registry.npmjs.org/form-data 74ms (cache miss)
+108 silly placeDep ROOT form-data@4.0.4 OK for: @types/node-fetch@2.6.13 want: ^4.0.4
+109 silly fetch manifest asynckit@^0.4.0
+110 silly fetch manifest mime-types@^2.1.12
+111 silly fetch manifest combined-stream@^1.0.8
+112 http fetch GET 200 https://registry.npmjs.org/mime-types 51ms (cache miss)
+113 http fetch GET 200 https://registry.npmjs.org/asynckit 54ms (cache miss)
+114 http fetch GET 200 https://registry.npmjs.org/combined-stream 69ms (cache miss)
+115 silly placeDep ROOT asynckit@0.4.0 OK for: form-data@4.0.4 want: ^0.4.0
+116 silly placeDep ROOT combined-stream@1.0.8 OK for: form-data@4.0.4 want: ^1.0.8
+117 silly placeDep ROOT mime-types@2.1.35 OK for: form-data@4.0.4 want: ^2.1.12
+118 silly fetch manifest delayed-stream@~1.0.0
+119 silly fetch manifest mime-db@1.52.0
+120 http fetch GET 200 https://registry.npmjs.org/mime-db 74ms (cache miss)
+121 http fetch GET 200 https://registry.npmjs.org/delayed-stream 92ms (cache miss)
+122 silly placeDep ROOT delayed-stream@1.0.0 OK for: combined-stream@1.0.8 want: ~1.0.0
+123 silly placeDep ROOT mime-db@1.52.0 OK for: mime-types@2.1.35 want: 1.52.0
+124 silly placeDep ROOT whatwg-url@5.0.0 OK for: node-fetch@2.6.13 want: ^5.0.0
+125 silly fetch manifest tr46@~0.0.3
+126 silly fetch manifest webidl-conversions@^3.0.0
+127 http fetch GET 200 https://registry.npmjs.org/tr46 85ms (cache miss)
+128 http fetch GET 200 https://registry.npmjs.org/webidl-conversions 112ms (cache miss)
+129 silly placeDep ROOT glob@7.2.3 OK for: rimraf@3.0.2 want: ^7.1.3
+130 silly fetch manifest once@^1.3.0
+131 silly fetch manifest inflight@^1.0.4
+132 silly fetch manifest fs.realpath@^1.0.0
+133 silly fetch manifest path-is-absolute@^1.0.0
+134 http fetch GET 200 https://registry.npmjs.org/once 47ms (cache miss)
+135 http fetch GET 200 https://registry.npmjs.org/fs.realpath 75ms (cache miss)
+136 http fetch GET 200 https://registry.npmjs.org/path-is-absolute 76ms (cache miss)
+137 http fetch GET 200 https://registry.npmjs.org/inflight 147ms (cache miss)
+138 silly placeDep ROOT fs.realpath@1.0.0 OK for: glob@7.2.3 want: ^1.0.0
+139 silly placeDep ROOT inflight@1.0.6 OK for: glob@7.2.3 want: ^1.0.4
+140 silly placeDep ROOT once@1.4.0 OK for: glob@7.2.3 want: ^1.3.0
+141 silly placeDep ROOT path-is-absolute@1.0.1 OK for: glob@7.2.3 want: ^1.0.0
+142 silly fetch manifest wrappy@1
+143 http fetch GET 200 https://registry.npmjs.org/wrappy 65ms (cache miss)
+144 silly placeDep ROOT wrappy@1.0.2 OK for: inflight@1.0.6 want: 1
+145 silly placeDep ROOT tr46@0.0.3 OK for: whatwg-url@5.0.0 want: ~0.0.3
+146 silly placeDep ROOT webidl-conversions@3.0.1 OK for: whatwg-url@5.0.0 want: ^3.0.0
+147 silly placeDep ROOT cliui@7.0.4 OK for: yargs@16.2.0 want: ^7.0.2
+148 silly placeDep ROOT get-caller-file@2.0.5 OK for: yargs@16.2.0 want: ^2.0.5
+149 silly placeDep ROOT require-directory@2.1.1 OK for: yargs@16.2.0 want: ^2.1.1
+150 silly placeDep ROOT string-width@4.2.3 OK for: yargs@16.2.0 want: ^4.2.0
+151 silly placeDep ROOT y18n@5.0.8 OK for: yargs@16.2.0 want: ^5.0.5
+152 silly placeDep ROOT yargs-parser@20.2.9 OK for: yargs@16.2.0 want: ^20.2.2
+153 silly fetch manifest wrap-ansi@^7.0.0
+154 silly fetch manifest strip-ansi@^6.0.0
+155 silly fetch manifest strip-ansi@^6.0.1
+156 silly fetch manifest emoji-regex@^8.0.0
+157 silly fetch manifest is-fullwidth-code-point@^3.0.0
+158 http fetch GET 200 https://registry.npmjs.org/wrap-ansi 49ms (cache miss)
+159 http fetch GET 200 https://registry.npmjs.org/strip-ansi 70ms (cache miss)
+160 http fetch GET 200 https://registry.npmjs.org/strip-ansi 84ms (cache miss)
+161 http fetch GET 200 https://registry.npmjs.org/emoji-regex 85ms (cache revalidated)
+162 http fetch GET 200 https://registry.npmjs.org/is-fullwidth-code-point 88ms (cache miss)
+163 silly placeDep ROOT strip-ansi@6.0.1 OK for: cliui@7.0.4 want: ^6.0.0
+164 silly placeDep ROOT wrap-ansi@7.0.0 OK for: cliui@7.0.4 want: ^7.0.0
+165 silly fetch manifest ansi-regex@^5.0.1
+166 http fetch GET 200 https://registry.npmjs.org/ansi-regex 72ms (cache miss)
+167 silly placeDep node_modules/string-width emoji-regex@8.0.0 OK for: string-width@4.2.3 want: ^8.0.0
+168 silly placeDep ROOT is-fullwidth-code-point@3.0.0 OK for: string-width@4.2.3 want: ^3.0.0
+169 silly placeDep ROOT ansi-regex@5.0.1 OK for: strip-ansi@6.0.1 want: ^5.0.1
+170 silly placeDep ROOT sprintf-js@1.0.3 OK for: argparse@1.0.10 want: ~1.0.2
+171 silly reify moves {}
+172 verbose reify failed optional dependency D:\SCARAVISION\iot-panel\node_modules\@tailwindcss\oxide-wasm32-wasi
+173 silly reify mark deleted [
+173 silly reify   'D:\\SCARAVISION\\iot-panel\\node_modules\\@tailwindcss\\oxide-wasm32-wasi'
+173 silly reify ]
+174 silly audit bulk request {
+174 silly audit   '@alloc/quick-lru': [ '5.2.0' ],
+174 silly audit   '@babel/code-frame': [ '7.27.1' ],
+174 silly audit   '@babel/compat-data': [ '7.28.5' ],
+174 silly audit   '@babel/core': [ '7.28.5' ],
+174 silly audit   '@babel/generator': [ '7.28.5' ],
+174 silly audit   '@babel/helper-compilation-targets': [ '7.27.2' ],
+174 silly audit   '@babel/helper-globals': [ '7.28.0' ],
+174 silly audit   '@babel/helper-module-imports': [ '7.27.1' ],
+174 silly audit   '@babel/helper-module-transforms': [ '7.28.3' ],
+174 silly audit   '@babel/helper-string-parser': [ '7.27.1' ],
+174 silly audit   '@babel/helper-validator-identifier': [ '7.28.5' ],
+174 silly audit   '@babel/helper-validator-option': [ '7.27.1' ],
+174 silly audit   '@babel/helpers': [ '7.28.4' ],
+174 silly audit   '@babel/parser': [ '7.28.5' ],
+174 silly audit   '@babel/runtime': [ '7.28.4' ],
+174 silly audit   '@babel/template': [ '7.27.2' ],
+174 silly audit   '@babel/traverse': [ '7.28.5' ],
+174 silly audit   '@babel/types': [ '7.28.5' ],
+174 silly audit   '@emnapi/core': [ '1.7.0' ],
+174 silly audit   '@emnapi/runtime': [ '1.7.0' ],
+174 silly audit   '@emnapi/wasi-threads': [ '1.1.0' ],
+174 silly audit   '@emotion/babel-plugin': [ '11.13.5' ],
+174 silly audit   'convert-source-map': [ '1.9.0', '2.0.0' ],
+174 silly audit   '@emotion/cache': [ '11.14.0' ],
+174 silly audit   '@emotion/hash': [ '0.9.2' ],
+174 silly audit   '@emotion/is-prop-valid': [ '1.4.0' ],
+174 silly audit   '@emotion/memoize': [ '0.9.0' ],
+174 silly audit   '@emotion/react': [ '11.14.0' ],
+174 silly audit   '@emotion/serialize': [ '1.3.3' ],
+174 silly audit   '@emotion/sheet': [ '1.4.0' ],
+174 silly audit   '@emotion/styled': [ '11.14.1' ],
+174 silly audit   '@emotion/unitless': [ '0.10.0' ],
+174 silly audit   '@emotion/use-insertion-effect-with-fallbacks': [ '1.2.0' ],
+174 silly audit   '@emotion/utils': [ '1.4.2' ],
+174 silly audit   '@emotion/weak-memoize': [ '0.4.0' ],
+174 silly audit   '@eslint-community/eslint-utils': [ '4.9.0' ],
+174 silly audit   'eslint-visitor-keys': [ '3.4.3', '4.2.1' ],
+174 silly audit   '@eslint-community/regexpp': [ '4.12.2' ],
+174 silly audit   '@eslint/config-array': [ '0.21.1' ],
+174 silly audit   '@eslint/config-helpers': [ '0.4.2' ],
+174 silly audit   '@eslint/core': [ '0.17.0' ],
+174 silly audit   '@eslint/eslintrc': [ '3.3.1' ],
+174 silly audit   '@eslint/js': [ '9.39.1' ],
+174 silly audit   '@eslint/object-schema': [ '2.1.7' ],
+174 silly audit   '@eslint/plugin-kit': [ '0.4.1' ],
+174 silly audit   '@humanfs/core': [ '0.19.1' ],
+174 silly audit   '@humanfs/node': [ '0.16.7' ],
+174 silly audit   '@humanwhocodes/module-importer': [ '1.0.1' ],
+174 silly audit   '@humanwhocodes/retry': [ '0.4.3' ],
+174 silly audit   '@img/colour': [ '1.0.0' ],
+174 silly audit   '@img/sharp-darwin-arm64': [ '0.34.5' ],
+174 silly audit   '@img/sharp-darwin-x64': [ '0.34.5' ],
+174 silly audit   '@img/sharp-libvips-darwin-arm64': [ '1.2.4' ],
+174 silly audit   '@img/sharp-libvips-darwin-x64': [ '1.2.4' ],
+174 silly audit   '@img/sharp-libvips-linux-arm': [ '1.2.4' ],
+174 silly audit   '@img/sharp-libvips-linux-arm64': [ '1.2.4' ],
+174 silly audit   '@img/sharp-libvips-linux-ppc64': [ '1.2.4' ],
+174 silly audit   '@img/sharp-libvips-linux-riscv64': [ '1.2.4' ],
+174 silly audit   '@img/sharp-libvips-linux-s390x': [ '1.2.4' ],
+174 silly audit   '@img/sharp-libvips-linux-x64': [ '1.2.4' ],
+174 silly audit   '@img/sharp-libvips-linuxmusl-arm64': [ '1.2.4' ],
+174 silly audit   '@img/sharp-libvips-linuxmusl-x64': [ '1.2.4' ],
+174 silly audit   '@img/sharp-linux-arm': [ '0.34.5' ],
+174 silly audit   '@img/sharp-linux-arm64': [ '0.34.5' ],
+174 silly audit   '@img/sharp-linux-ppc64': [ '0.34.5' ],
+174 silly audit   '@img/sharp-linux-riscv64': [ '0.34.5' ],
+174 silly audit   '@img/sharp-linux-s390x': [ '0.34.5' ],
+174 silly audit   '@img/sharp-linux-x64': [ '0.34.5' ],
+174 silly audit   '@img/sharp-linuxmusl-arm64': [ '0.34.5' ],
+174 silly audit   '@img/sharp-linuxmusl-x64': [ '0.34.5' ],
+174 silly audit   '@img/sharp-wasm32': [ '0.34.5' ],
+174 silly audit   '@img/sharp-win32-arm64': [ '0.34.5' ],
+174 silly audit   '@img/sharp-win32-ia32': [ '0.34.5' ],
+174 silly audit   '@img/sharp-win32-x64': [ '0.34.5' ],
+174 silly audit   '@jridgewell/gen-mapping': [ '0.3.13' ],
+174 silly audit   '@jridgewell/remapping': [ '2.3.5' ],
+174 silly audit   '@jridgewell/resolve-uri': [ '3.1.2' ],
+174 silly audit   '@jridgewell/sourcemap-codec': [ '1.5.5' ],
+174 silly audit   '@jridgewell/trace-mapping': [ '0.3.31' ],
+174 silly audit   '@mui/core-downloads-tracker': [ '7.3.5' ],
+174 silly audit   '@mui/material': [ '7.3.5' ],
+174 silly audit   'react-is': [ '19.2.0', '16.13.1' ],
+174 silly audit   '@mui/private-theming': [ '7.3.5' ],
+174 silly audit   '@mui/styled-engine': [ '7.3.5' ],
+174 silly audit   '@mui/system': [ '7.3.5' ],
+174 silly audit   '@mui/types': [ '7.4.8' ],
+174 silly audit   '@mui/utils': [ '7.3.5' ],
+174 silly audit   '@napi-rs/wasm-runtime': [ '0.2.12' ],
+174 silly audit   '@next/env': [ '16.0.1' ],
+174 silly audit   '@next/eslint-plugin-next': [ '16.0.1' ],
+174 silly audit   '@next/swc-darwin-arm64': [ '16.0.1' ],
+174 silly audit   '@next/swc-darwin-x64': [ '16.0.1' ],
+174 silly audit   '@next/swc-linux-arm64-gnu': [ '16.0.1' ],
+174 silly audit   '@next/swc-linux-arm64-musl': [ '16.0.1' ],
+174 silly audit   '@next/swc-linux-x64-gnu': [ '16.0.1' ],
+174 silly audit   '@next/swc-linux-x64-musl': [ '16.0.1' ],
+174 silly audit   '@next/swc-win32-arm64-msvc': [ '16.0.1' ],
+174 silly audit   '@next/swc-win32-x64-msvc': [ '16.0.1' ],
+174 silly audit   '@nodelib/fs.scandir': [ '2.1.5' ],
+174 silly audit   '@nodelib/fs.stat': [ '2.0.5' ],
+174 silly audit   '@nodelib/fs.walk': [ '1.2.8' ],
+174 silly audit   '@nolyfill/is-core-module': [ '1.0.39' ],
+174 silly audit   '@popperjs/core': [ '2.11.8' ],
+174 silly audit   '@rtsao/scc': [ '1.1.0' ],
+174 silly audit   '@swc/helpers': [ '0.5.15' ],
+174 silly audit   '@tailwindcss/node': [ '4.1.17' ],
+174 silly audit   '@tailwindcss/oxide': [ '4.1.17' ],
+174 silly audit   '@tailwindcss/oxide-android-arm64': [ '4.1.17' ],
+174 silly audit   '@tailwindcss/oxide-darwin-arm64': [ '4.1.17' ],
+174 silly audit   '@tailwindcss/oxide-darwin-x64': [ '4.1.17' ],
+174 silly audit   '@tailwindcss/oxide-freebsd-x64': [ '4.1.17' ],
+174 silly audit   '@tailwindcss/oxide-linux-arm-gnueabihf': [ '4.1.17' ],
+174 silly audit   '@tailwindcss/oxide-linux-arm64-gnu': [ '4.1.17' ],
+174 silly audit   '@tailwindcss/oxide-linux-arm64-musl': [ '4.1.17' ],
+174 silly audit   '@tailwindcss/oxide-linux-x64-gnu': [ '4.1.17' ],
+174 silly audit   '@tailwindcss/oxide-linux-x64-musl': [ '4.1.17' ],
+174 silly audit   '@tailwindcss/oxide-win32-arm64-msvc': [ '4.1.17' ],
+174 silly audit   '@tailwindcss/oxide-win32-x64-msvc': [ '4.1.17' ],
+174 silly audit   '@tailwindcss/postcss': [ '4.1.17' ],
+174 silly audit   '@tybys/wasm-util': [ '0.10.1' ],
+174 silly audit   '@types/estree': [ '1.0.8' ],
+174 silly audit   '@types/json-schema': [ '7.0.15' ],
+174 silly audit   '@types/json5': [ '0.0.29' ],
+174 silly audit   '@types/mqtt': [ '2.5.0' ],
+174 silly audit   '@types/node': [ '20.19.24' ],
+174 silly audit   '@types/parse-json': [ '4.0.2' ],
+174 silly audit   '@types/prop-types': [ '15.7.15' ],
+174 silly audit   '@types/react': [ '19.2.2' ],
+174 silly audit   '@types/react-dom': [ '19.2.2' ],
+174 silly audit   '@types/react-transition-group': [ '4.4.12' ],
+174 silly audit   '@types/readable-stream': [ '4.0.22' ],
+174 silly audit   '@types/ws': [ '8.18.1' ],
+174 silly audit   '@typescript-eslint/eslint-plugin': [ '8.46.3' ],
+174 silly audit   ignore: [ '7.0.5', '5.3.2' ],
+174 silly audit   '@typescript-eslint/parser': [ '8.46.3' ],
+174 silly audit   '@typescript-eslint/project-service': [ '8.46.3' ],
+174 silly audit   '@typescript-eslint/scope-manager': [ '8.46.3' ],
+174 silly audit   '@typescript-eslint/tsconfig-utils': [ '8.46.3' ],
+174 silly audit   '@typescript-eslint/type-utils': [ '8.46.3' ],
+174 silly audit   '@typescript-eslint/types': [ '8.46.3' ],
+174 silly audit   '@typescript-eslint/typescript-estree': [ '8.46.3' ],
+174 silly audit   'brace-expansion': [ '2.0.2', '1.1.12' ],
+174 silly audit   'fast-glob': [ '3.3.3', '3.3.1' ],
+174 silly audit   'glob-parent': [ '5.1.2', '6.0.2' ],
+174 silly audit   minimatch: [ '9.0.5', '3.1.2' ],
+174 silly audit   semver: [ '7.7.3', '6.3.1' ],
+174 silly audit   '@typescript-eslint/utils': [ '8.46.3' ],
+174 silly audit   '@typescript-eslint/visitor-keys': [ '8.46.3' ],
+174 silly audit   '@unrs/resolver-binding-android-arm-eabi': [ '1.11.1' ],
+174 silly audit   '@unrs/resolver-binding-android-arm64': [ '1.11.1' ],
+174 silly audit   '@unrs/resolver-binding-darwin-arm64': [ '1.11.1' ],
+174 silly audit   '@unrs/resolver-binding-darwin-x64': [ '1.11.1' ],
+174 silly audit   '@unrs/resolver-binding-freebsd-x64': [ '1.11.1' ],
+174 silly audit   '@unrs/resolver-binding-linux-arm-gnueabihf': [ '1.11.1' ],
+174 silly audit   '@unrs/resolver-binding-linux-arm-musleabihf': [ '1.11.1' ],
+174 silly audit   '@unrs/resolver-binding-linux-arm64-gnu': [ '1.11.1' ],
+174 silly audit   '@unrs/resolver-binding-linux-arm64-musl': [ '1.11.1' ],
+174 silly audit   '@unrs/resolver-binding-linux-ppc64-gnu': [ '1.11.1' ],
+174 silly audit   '@unrs/resolver-binding-linux-riscv64-gnu': [ '1.11.1' ],
+174 silly audit   '@unrs/resolver-binding-linux-riscv64-musl': [ '1.11.1' ],
+174 silly audit   '@unrs/resolver-binding-linux-s390x-gnu': [ '1.11.1' ],
+174 silly audit   '@unrs/resolver-binding-linux-x64-gnu': [ '1.11.1' ],
+174 silly audit   '@unrs/resolver-binding-linux-x64-musl': [ '1.11.1' ],
+174 silly audit   '@unrs/resolver-binding-wasm32-wasi': [ '1.11.1' ],
+174 silly audit   '@unrs/resolver-binding-win32-arm64-msvc': [ '1.11.1' ],
+174 silly audit   '@unrs/resolver-binding-win32-ia32-msvc': [ '1.11.1' ],
+174 silly audit   '@unrs/resolver-binding-win32-x64-msvc': [ '1.11.1' ],
+174 silly audit   'abort-controller': [ '3.0.0' ],
+174 silly audit   acorn: [ '8.15.0' ],
+174 silly audit   'acorn-jsx': [ '5.3.2' ],
+174 silly audit   ajv: [ '6.12.6' ],
+174 silly audit   'ansi-styles': [ '4.3.0' ],
+174 silly audit   argparse: [ '2.0.1', '1.0.10' ],
+174 silly audit   'aria-query': [ '5.3.2' ],
+174 silly audit   'array-buffer-byte-length': [ '1.0.2' ],
+174 silly audit   'array-includes': [ '3.1.9' ],
+174 silly audit   'array.prototype.findlast': [ '1.2.5' ],
+174 silly audit   'array.prototype.findlastindex': [ '1.2.6' ],
+174 silly audit   'array.prototype.flat': [ '1.3.3' ],
+174 silly audit   'array.prototype.flatmap': [ '1.3.3' ],
+174 silly audit   'array.prototype.tosorted': [ '1.1.4' ],
+174 silly audit   'arraybuffer.prototype.slice': [ '1.0.4' ],
+174 silly audit   'ast-types-flow': [ '0.0.8' ],
+174 silly audit   'async-function': [ '1.0.0' ],
+174 silly audit   'available-typed-arrays': [ '1.0.7' ],
+174 silly audit   'axe-core': [ '4.11.0' ],
+174 silly audit   'axobject-query': [ '4.1.0' ],
+174 silly audit   'babel-plugin-macros': [ '3.1.0' ],
+174 silly audit   'balanced-match': [ '1.0.2' ],
+174 silly audit   'base64-js': [ '1.5.1' ],
+174 silly audit   'baseline-browser-mapping': [ '2.8.25' ],
+174 silly audit   bl: [ '6.1.4' ],
+174 silly audit   braces: [ '3.0.3' ],
+174 silly audit   'broker-factory': [ '3.1.10' ],
+174 silly audit   browserslist: [ '4.27.0' ],
+174 silly audit   buffer: [ '6.0.3' ],
+174 silly audit   'buffer-from': [ '1.1.2' ],
+174 silly audit   'call-bind': [ '1.0.8' ],
+174 silly audit   'call-bind-apply-helpers': [ '1.0.2' ],
+174 silly audit   'call-bound': [ '1.0.4' ],
+174 silly audit   callsites: [ '3.1.0' ],
+174 silly audit   'caniuse-lite': [ '1.0.30001754' ],
+174 silly audit   chalk: [ '4.1.2' ],
+174 silly audit   'client-only': [ '0.0.1' ],
+174 silly audit   clsx: [ '2.1.1' ],
+174 silly audit   'color-convert': [ '2.0.1' ],
+174 silly audit   'color-name': [ '1.1.4' ],
+174 silly audit   commist: [ '3.2.0' ],
+174 silly audit   'concat-map': [ '0.0.1' ],
+174 silly audit   'concat-stream': [ '2.0.0' ],
+174 silly audit   'readable-stream': [ '3.6.2', '4.7.0' ],
+174 silly audit   cosmiconfig: [ '7.1.0' ],
+174 silly audit   'cross-spawn': [ '7.0.6' ],
+174 silly audit   csstype: [ '3.1.3' ],
+174 silly audit   'damerau-levenshtein': [ '1.0.8' ],
+174 silly audit   'data-view-buffer': [ '1.0.2' ],
+174 silly audit   'data-view-byte-length': [ '1.0.2' ],
+174 silly audit   'data-view-byte-offset': [ '1.0.1' ],
+174 silly audit   debug: [ '4.4.3', '3.2.7' ],
+174 silly audit   'deep-is': [ '0.1.4' ],
+174 silly audit   'define-data-property': [ '1.1.4' ],
+174 silly audit   'define-properties': [ '1.2.1' ],
+174 silly audit   'detect-libc': [ '2.1.2' ],
+174 silly audit   doctrine: [ '2.1.0' ],
+174 silly audit   'dom-helpers': [ '5.2.1' ],
+174 silly audit   'dunder-proto': [ '1.0.1' ],
+174 silly audit   'electron-to-chromium': [ '1.5.249' ],
+174 silly audit   'emoji-regex': [ '9.2.2', '8.0.0' ],
+174 silly audit   'enhanced-resolve': [ '5.18.3' ],
+174 silly audit   'error-ex': [ '1.3.4' ],
+174 silly audit   'es-abstract': [ '1.24.0' ],
+174 silly audit   'es-define-property': [ '1.0.1' ],
+174 silly audit   'es-errors': [ '1.3.0' ],
+174 silly audit   'es-iterator-helpers': [ '1.2.1' ],
+174 silly audit   'es-object-atoms': [ '1.1.1' ],
+174 silly audit   'es-set-tostringtag': [ '2.1.0' ],
+174 silly audit   'es-shim-unscopables': [ '1.1.0' ],
+174 silly audit   'es-to-primitive': [ '1.3.0' ],
+174 silly audit   escalade: [ '3.2.0' ],
+174 silly audit   'escape-string-regexp': [ '4.0.0' ],
+174 silly audit   eslint: [ '9.39.1' ],
+174 silly audit   'eslint-config-next': [ '16.0.1' ],
+174 silly audit   globals: [ '16.4.0', '14.0.0' ],
+174 silly audit   'eslint-import-resolver-node': [ '0.3.9' ],
+174 silly audit   'eslint-import-resolver-typescript': [ '3.10.1' ],
+174 silly audit   'eslint-module-utils': [ '2.12.1' ],
+174 silly audit   'eslint-plugin-import': [ '2.32.0' ],
+174 silly audit   'eslint-plugin-jsx-a11y': [ '6.10.2' ],
+174 silly audit   'eslint-plugin-react': [ '7.37.5' ],
+174 silly audit   'eslint-plugin-react-hooks': [ '7.0.1' ],
+174 silly audit   resolve: [ '2.0.0-next.5', '1.22.11' ],
+174 silly audit   'eslint-scope': [ '8.4.0' ],
+174 silly audit   espree: [ '10.4.0' ],
+174 silly audit   esquery: [ '1.6.0' ],
+174 silly audit   esrecurse: [ '4.3.0' ],
+174 silly audit   estraverse: [ '5.3.0' ],
+174 silly audit   esutils: [ '2.0.3' ],
+174 silly audit   'event-target-shim': [ '5.0.1' ],
+174 silly audit   events: [ '3.3.0' ],
+174 silly audit   'fast-deep-equal': [ '3.1.3' ],
+174 silly audit   'fast-json-stable-stringify': [ '2.1.0' ],
+174 silly audit   'fast-levenshtein': [ '2.0.6' ],
+174 silly audit   'fast-unique-numbers': [ '9.0.24' ],
+174 silly audit   fastq: [ '1.19.1' ],
+174 silly audit   'file-entry-cache': [ '8.0.0' ],
+174 silly audit   'fill-range': [ '7.1.1' ],
+174 silly audit   'find-root': [ '1.1.0' ],
+174 silly audit   'find-up': [ '5.0.0' ],
+174 silly audit   'flat-cache': [ '4.0.1' ],
+174 silly audit   flatted: [ '3.3.3' ],
+174 silly audit   'for-each': [ '0.3.5' ],
+174 silly audit   'function-bind': [ '1.1.2' ],
+174 silly audit   'function.prototype.name': [ '1.1.8' ],
+174 silly audit   'functions-have-names': [ '1.2.3' ],
+174 silly audit   'generator-function': [ '2.0.1' ],
+174 silly audit   gensync: [ '1.0.0-beta.2' ],
+174 silly audit   'get-intrinsic': [ '1.3.0' ],
+174 silly audit   'get-proto': [ '1.0.1' ],
+174 silly audit   'get-symbol-description': [ '1.1.0' ],
+174 silly audit   'get-tsconfig': [ '4.13.0' ],
+174 silly audit   globalthis: [ '1.0.4' ],
+174 silly audit   gopd: [ '1.2.0' ],
+174 silly audit   'graceful-fs': [ '4.2.11' ],
+174 silly audit   graphemer: [ '1.4.0' ],
+174 silly audit   'has-bigints': [ '1.1.0' ],
+174 silly audit   'has-flag': [ '4.0.0' ],
+174 silly audit   'has-property-descriptors': [ '1.0.2' ],
+174 silly audit   'has-proto': [ '1.2.0' ],
+174 silly audit   'has-symbols': [ '1.1.0' ],
+174 silly audit   'has-tostringtag': [ '1.0.2' ],
+174 silly audit   hasown: [ '2.0.2' ],
+174 silly audit   'help-me': [ '5.0.0' ],
+174 silly audit   'hermes-estree': [ '0.25.1' ],
+174 silly audit   'hermes-parser': [ '0.25.1' ],
+174 silly audit   'hoist-non-react-statics': [ '3.3.2' ],
+174 silly audit   ieee754: [ '1.2.1' ],
+174 silly audit   'import-fresh': [ '3.3.1' ],
+174 silly audit   imurmurhash: [ '0.1.4' ],
+174 silly audit   inherits: [ '2.0.4' ],
+174 silly audit   'internal-slot': [ '1.1.0' ],
+174 silly audit   'ip-address': [ '10.1.0' ],
+174 silly audit   'is-array-buffer': [ '3.0.5' ],
+174 silly audit   'is-arrayish': [ '0.2.1' ],
+174 silly audit   'is-async-function': [ '2.1.1' ],
+174 silly audit   'is-bigint': [ '1.1.0' ],
+174 silly audit   'is-boolean-object': [ '1.2.2' ],
+174 silly audit   'is-bun-module': [ '2.0.0' ],
+174 silly audit   'is-callable': [ '1.2.7' ],
+174 silly audit   'is-core-module': [ '2.16.1' ],
+174 silly audit   'is-data-view': [ '1.0.2' ],
+174 silly audit   'is-date-object': [ '1.1.0' ],
+174 silly audit   'is-extglob': [ '2.1.1' ],
+174 silly audit   'is-finalizationregistry': [ '1.1.1' ],
+174 silly audit   'is-generator-function': [ '1.1.2' ],
+174 silly audit   'is-glob': [ '4.0.3' ],
+174 silly audit   'is-map': [ '2.0.3' ],
+174 silly audit   'is-negative-zero': [ '2.0.3' ],
+174 silly audit   'is-number': [ '7.0.0' ],
+174 silly audit   'is-number-object': [ '1.1.1' ],
+174 silly audit   'is-regex': [ '1.2.1' ],
+174 silly audit   'is-set': [ '2.0.3' ],
+174 silly audit   'is-shared-array-buffer': [ '1.0.4' ],
+174 silly audit   'is-string': [ '1.1.1' ],
+174 silly audit   'is-symbol': [ '1.1.1' ],
+174 silly audit   'is-typed-array': [ '1.1.15' ],
+174 silly audit   'is-weakmap': [ '2.0.2' ],
+174 silly audit   'is-weakref': [ '1.1.1' ],
+174 silly audit   'is-weakset': [ '2.0.4' ],
+174 silly audit   isarray: [ '2.0.5' ],
+174 silly audit   isexe: [ '2.0.0' ],
+174 silly audit   'iterator.prototype': [ '1.1.5' ],
+174 silly audit   jiti: [ '2.6.1' ],
+174 silly audit   'js-sdsl': [ '4.3.0' ],
+174 silly audit   'js-tokens': [ '4.0.0' ],
+174 silly audit   'js-yaml': [ '4.1.0' ],
+174 silly audit   jsesc: [ '3.1.0' ],
+174 silly audit   'json-buffer': [ '3.0.1' ],
+174 silly audit   'json-parse-even-better-errors': [ '2.3.1' ],
+174 silly audit   'json-schema-traverse': [ '0.4.1' ],
+174 silly audit   'json-stable-stringify-without-jsonify': [ '1.0.1' ],
+174 silly audit   json5: [ '2.2.3', '1.0.2' ],
+174 silly audit   'jsx-ast-utils': [ '3.3.5' ],
+174 silly audit   keyv: [ '4.5.4' ],
+174 silly audit   'language-subtag-registry': [ '0.3.23' ],
+174 silly audit   'language-tags': [ '1.0.9' ],
+174 silly audit   levn: [ '0.4.1' ],
+174 silly audit   lightningcss: [ '1.30.2' ],
+174 silly audit   'lightningcss-android-arm64': [ '1.30.2' ],
+174 silly audit   'lightningcss-darwin-arm64': [ '1.30.2' ],
+174 silly audit   'lightningcss-darwin-x64': [ '1.30.2' ],
+174 silly audit   'lightningcss-freebsd-x64': [ '1.30.2' ],
+174 silly audit   'lightningcss-linux-arm-gnueabihf': [ '1.30.2' ],
+174 silly audit   'lightningcss-linux-arm64-gnu': [ '1.30.2' ],
+174 silly audit   'lightningcss-linux-arm64-musl': [ '1.30.2' ],
+174 silly audit   'lightningcss-linux-x64-gnu': [ '1.30.2' ],
+174 silly audit   'lightningcss-linux-x64-musl': [ '1.30.2' ],
+174 silly audit   'lightningcss-win32-arm64-msvc': [ '1.30.2' ],
+174 silly audit   'lightningcss-win32-x64-msvc': [ '1.30.2' ],
+174 silly audit   'lines-and-columns': [ '1.2.4' ],
+174 silly audit   'locate-path': [ '6.0.0' ],
+174 silly audit   'lodash.merge': [ '4.6.2' ],
+174 silly audit   'loose-envify': [ '1.4.0' ],
+174 silly audit   'lru-cache': [ '5.1.1', '10.4.3' ],
+174 silly audit   'magic-string': [ '0.30.21' ],
+174 silly audit   'math-intrinsics': [ '1.1.0' ],
+174 silly audit   merge2: [ '1.4.1' ],
+174 silly audit   micromatch: [ '4.0.8' ],
+174 silly audit   minimist: [ '1.2.8' ],
+174 silly audit   mqtt: [ '5.14.1' ],
+174 silly audit   'mqtt-packet': [ '9.0.2' ],
+174 silly audit   ms: [ '2.1.3' ],
+174 silly audit   nanoid: [ '3.3.11' ],
+174 silly audit   'napi-postinstall': [ '0.3.4' ],
+174 silly audit   'natural-compare': [ '1.4.0' ],
+174 silly audit   next: [ '16.0.1' ],
+174 silly audit   postcss: [ '8.4.31', '8.5.6' ],
+174 silly audit   'node-releases': [ '2.0.27' ],
+174 silly audit   'number-allocator': [ '1.0.14' ],
+174 silly audit   'object-assign': [ '4.1.1' ],
+174 silly audit   'object-inspect': [ '1.13.4' ],
+174 silly audit   'object-keys': [ '1.1.1' ],
+174 silly audit   'object.assign': [ '4.1.7' ],
+174 silly audit   'object.entries': [ '1.1.9' ],
+174 silly audit   'object.fromentries': [ '2.0.8' ],
+174 silly audit   'object.groupby': [ '1.0.3' ],
+174 silly audit   'object.values': [ '1.2.1' ],
+174 silly audit   optionator: [ '0.9.4' ],
+174 silly audit   'own-keys': [ '1.0.1' ],
+174 silly audit   'p-limit': [ '3.1.0' ],
+174 silly audit   'p-locate': [ '5.0.0' ],
+174 silly audit   'parent-module': [ '1.0.1' ],
+174 silly audit   'parse-json': [ '5.2.0' ],
+174 silly audit   'path-exists': [ '4.0.0' ],
+174 silly audit   'path-key': [ '3.1.1' ],
+174 silly audit   'path-parse': [ '1.0.7' ],
+174 silly audit   'path-type': [ '4.0.0' ],
+174 silly audit   picocolors: [ '1.1.1' ],
+174 silly audit   picomatch: [ '2.3.1', '4.0.3' ],
+174 silly audit   'possible-typed-array-names': [ '1.1.0' ],
+174 silly audit   'prelude-ls': [ '1.2.1' ],
+174 silly audit   process: [ '0.11.10' ],
+174 silly audit   'process-nextick-args': [ '2.0.1' ],
+174 silly audit   'prop-types': [ '15.8.1' ],
+174 silly audit   punycode: [ '2.3.1' ],
+174 silly audit   'queue-microtask': [ '1.2.3' ],
+174 silly audit   react: [ '19.2.0' ],
+174 silly audit   'react-dom': [ '19.2.0' ],
+174 silly audit   'react-transition-group': [ '4.4.5' ],
+174 silly audit   'reflect.getprototypeof': [ '1.0.10' ],
+174 silly audit   'regexp.prototype.flags': [ '1.5.4' ],
+174 silly audit   'resolve-from': [ '4.0.0' ],
+174 silly audit   'resolve-pkg-maps': [ '1.0.0' ],
+174 silly audit   reusify: [ '1.1.0' ],
+174 silly audit   rfdc: [ '1.4.1' ],
+174 silly audit   'run-parallel': [ '1.2.0' ],
+174 silly audit   'safe-array-concat': [ '1.1.3' ],
+174 silly audit   'safe-buffer': [ '5.2.1' ],
+174 silly audit   'safe-push-apply': [ '1.0.0' ],
+174 silly audit   'safe-regex-test': [ '1.1.0' ],
+174 silly audit   scheduler: [ '0.27.0' ],
+174 silly audit   'set-function-length': [ '1.2.2' ],
+174 silly audit   'set-function-name': [ '2.0.2' ],
+174 silly audit   'set-proto': [ '1.0.0' ],
+174 silly audit   sharp: [ '0.34.5' ],
+174 silly audit   'shebang-command': [ '2.0.0' ],
+174 silly audit   'shebang-regex': [ '3.0.0' ],
+174 silly audit   'side-channel': [ '1.1.0' ],
+174 silly audit   'side-channel-list': [ '1.0.0' ],
+174 silly audit   'side-channel-map': [ '1.0.1' ],
+174 silly audit   'side-channel-weakmap': [ '1.0.2' ],
+174 silly audit   'smart-buffer': [ '4.2.0' ],
+174 silly audit   socks: [ '2.8.7' ],
+174 silly audit   'source-map': [ '0.5.7' ],
+174 silly audit   'source-map-js': [ '1.2.1' ],
+174 silly audit   split2: [ '4.2.0' ],
+174 silly audit   'stable-hash': [ '0.0.5' ],
+174 silly audit   'stop-iteration-iterator': [ '1.1.0' ],
+174 silly audit   string_decoder: [ '1.3.0' ],
+174 silly audit   'string.prototype.includes': [ '2.0.1' ],
+174 silly audit   'string.prototype.matchall': [ '4.0.12' ],
+174 silly audit   'string.prototype.repeat': [ '1.0.0' ],
+174 silly audit   'string.prototype.trim': [ '1.2.10' ],
+174 silly audit   'string.prototype.trimend': [ '1.0.9' ],
+174 silly audit   'string.prototype.trimstart': [ '1.0.8' ],
+174 silly audit   'strip-bom': [ '3.0.0' ],
+174 silly audit   'strip-json-comments': [ '3.1.1' ],
+174 silly audit   'styled-jsx': [ '5.1.6' ],
+174 silly audit   stylis: [ '4.2.0' ],
+174 silly audit   'supports-color': [ '7.2.0' ],
+174 silly audit   'supports-preserve-symlinks-flag': [ '1.0.0' ],
+174 silly audit   tailwindcss: [ '4.1.17' ],
+174 silly audit   tapable: [ '2.3.0' ],
+174 silly audit   tinyglobby: [ '0.2.15' ],
+174 silly audit   fdir: [ '6.5.0' ],
+174 silly audit   'to-regex-range': [ '5.0.1' ],
+174 silly audit   'ts-api-utils': [ '2.1.0' ],
+174 silly audit   'tsconfig-paths': [ '3.15.0' ],
+174 silly audit   tslib: [ '2.8.1' ],
+174 silly audit   'type-check': [ '0.4.0' ],
+174 silly audit   'typed-array-buffer': [ '1.0.3' ],
+174 silly audit   'typed-array-byte-length': [ '1.0.3' ],
+174 silly audit   'typed-array-byte-offset': [ '1.0.4' ],
+174 silly audit   'typed-array-length': [ '1.0.7' ],
+174 silly audit   typedarray: [ '0.0.6' ],
+174 silly audit   typescript: [ '5.9.3' ],
+174 silly audit   'typescript-eslint': [ '8.46.3' ],
+174 silly audit   'unbox-primitive': [ '1.1.0' ],
+174 silly audit   'undici-types': [ '6.21.0' ],
+174 silly audit   'unrs-resolver': [ '1.11.1' ],
+174 silly audit   'update-browserslist-db': [ '1.1.4' ],
+174 silly audit   'uri-js': [ '4.4.1' ],
+174 silly audit   'util-deprecate': [ '1.0.2' ],
+174 silly audit   which: [ '2.0.2' ],
+174 silly audit   'which-boxed-primitive': [ '1.1.1' ],
+174 silly audit   'which-builtin-type': [ '1.2.1' ],
+174 silly audit   'which-collection': [ '1.0.2' ],
+174 silly audit   'which-typed-array': [ '1.1.19' ],
+174 silly audit   'word-wrap': [ '1.2.5' ],
+174 silly audit   'worker-factory': [ '7.0.46' ],
+174 silly audit   'worker-timers': [ '8.0.25' ],
+174 silly audit   'worker-timers-broker': [ '8.0.11' ],
+174 silly audit   'worker-timers-worker': [ '9.0.11' ],
+174 silly audit   ws: [ '8.18.3' ],
+174 silly audit   yallist: [ '3.1.1' ],
+174 silly audit   yaml: [ '1.10.2' ],
+174 silly audit   'yocto-queue': [ '0.1.0' ],
+174 silly audit   zod: [ '4.1.12' ],
+174 silly audit   'zod-validation-error': [ '4.0.2' ],
+174 silly audit   '@tensorflow-models/handpose': [ '0.1.0' ],
+174 silly audit   '@tensorflow/tfjs-backend-webgl': [ '4.22.0' ],
+174 silly audit   '@tensorflow/tfjs-core': [ '4.22.0' ],
+174 silly audit   '@tensorflow/tfjs-converter': [ '4.22.0' ],
+174 silly audit   '@tensorflow/tfjs': [ '4.22.0' ],
+174 silly audit   'react-webcam': [ '7.2.0' ],
+174 silly audit   rimraf: [ '3.0.2' ],
+174 silly audit   '@tensorflow/tfjs-backend-cpu': [ '4.22.0' ],
+174 silly audit   '@tensorflow/tfjs-data': [ '4.22.0' ],
+174 silly audit   seedrandom: [ '3.0.5' ],
+174 silly audit   '@tensorflow/tfjs-layers': [ '4.22.0' ],
+174 silly audit   'core-js': [ '3.29.1' ],
+174 silly audit   'regenerator-runtime': [ '0.13.11' ],
+174 silly audit   yargs: [ '16.2.0' ],
+174 silly audit   '@types/seedrandom': [ '2.4.34' ],
+174 silly audit   '@types/offscreencanvas': [ '2019.3.0', '2019.7.3' ],
+174 silly audit   '@types/long': [ '4.0.2' ],
+174 silly audit   '@webgpu/types': [ '0.1.38' ],
+174 silly audit   long: [ '4.0.0' ],
+174 silly audit   'node-fetch': [ '2.6.13' ],
+174 silly audit   '@types/node-fetch': [ '2.6.13' ],
+174 silly audit   'form-data': [ '4.0.4' ],
+174 silly audit   asynckit: [ '0.4.0' ],
+174 silly audit   'combined-stream': [ '1.0.8' ],
+174 silly audit   'mime-types': [ '2.1.35' ],
+174 silly audit   'delayed-stream': [ '1.0.0' ],
+174 silly audit   'mime-db': [ '1.52.0' ],
+174 silly audit   'whatwg-url': [ '5.0.0' ],
+174 silly audit   glob: [ '7.2.3' ],
+174 silly audit   'fs.realpath': [ '1.0.0' ],
+174 silly audit   inflight: [ '1.0.6' ],
+174 silly audit   once: [ '1.4.0' ],
+174 silly audit   'path-is-absolute': [ '1.0.1' ],
+174 silly audit   wrappy: [ '1.0.2' ],
+174 silly audit   tr46: [ '0.0.3' ],
+174 silly audit   'webidl-conversions': [ '3.0.1' ],
+174 silly audit   cliui: [ '7.0.4' ],
+174 silly audit   'get-caller-file': [ '2.0.5' ],
+174 silly audit   'require-directory': [ '2.1.1' ],
+174 silly audit   'string-width': [ '4.2.3' ],
+174 silly audit   y18n: [ '5.0.8' ],
+174 silly audit   'yargs-parser': [ '20.2.9' ],
+174 silly audit   'strip-ansi': [ '6.0.1' ],
+174 silly audit   'wrap-ansi': [ '7.0.0' ],
+174 silly audit   'is-fullwidth-code-point': [ '3.0.0' ],
+174 silly audit   'ansi-regex': [ '5.0.1' ],
+174 silly audit   'sprintf-js': [ '1.0.3' ],
+174 silly audit   '@tailwindcss/oxide-wasm32-wasi': [ '4.1.17' ]
+174 silly audit }
+175 verbose reify failed optional dependency D:\SCARAVISION\iot-panel\node_modules\lightningcss-win32-arm64-msvc
+176 silly reify mark deleted [
+176 silly reify   'D:\\SCARAVISION\\iot-panel\\node_modules\\lightningcss-win32-arm64-msvc'
+176 silly reify ]
+177 verbose reify failed optional dependency D:\SCARAVISION\iot-panel\node_modules\lightningcss-linux-x64-musl
+178 silly reify mark deleted [
+178 silly reify   'D:\\SCARAVISION\\iot-panel\\node_modules\\lightningcss-linux-x64-musl'
+178 silly reify ]
+179 verbose reify failed optional dependency D:\SCARAVISION\iot-panel\node_modules\lightningcss-linux-x64-gnu
+180 silly reify mark deleted [
+180 silly reify   'D:\\SCARAVISION\\iot-panel\\node_modules\\lightningcss-linux-x64-gnu'
+180 silly reify ]
+181 verbose reify failed optional dependency D:\SCARAVISION\iot-panel\node_modules\lightningcss-linux-arm64-musl
+182 silly reify mark deleted [
+182 silly reify   'D:\\SCARAVISION\\iot-panel\\node_modules\\lightningcss-linux-arm64-musl'
+182 silly reify ]
+183 verbose reify failed optional dependency D:\SCARAVISION\iot-panel\node_modules\lightningcss-linux-arm64-gnu
+184 silly reify mark deleted [
+184 silly reify   'D:\\SCARAVISION\\iot-panel\\node_modules\\lightningcss-linux-arm64-gnu'
+184 silly reify ]
+185 verbose reify failed optional dependency D:\SCARAVISION\iot-panel\node_modules\lightningcss-linux-arm-gnueabihf
+186 silly reify mark deleted [
+186 silly reify   'D:\\SCARAVISION\\iot-panel\\node_modules\\lightningcss-linux-arm-gnueabihf'
+186 silly reify ]
+187 verbose reify failed optional dependency D:\SCARAVISION\iot-panel\node_modules\lightningcss-freebsd-x64
+188 silly reify mark deleted [
+188 silly reify   'D:\\SCARAVISION\\iot-panel\\node_modules\\lightningcss-freebsd-x64'
+188 silly reify ]
+189 verbose reify failed optional dependency D:\SCARAVISION\iot-panel\node_modules\lightningcss-darwin-x64
+190 silly reify mark deleted [ 'D:\\SCARAVISION\\iot-panel\\node_modules\\lightningcss-darwin-x64' ]
+191 verbose reify failed optional dependency D:\SCARAVISION\iot-panel\node_modules\lightningcss-darwin-arm64
+192 silly reify mark deleted [
+192 silly reify   'D:\\SCARAVISION\\iot-panel\\node_modules\\lightningcss-darwin-arm64'
+192 silly reify ]
+193 verbose reify failed optional dependency D:\SCARAVISION\iot-panel\node_modules\lightningcss-android-arm64
+194 silly reify mark deleted [
+194 silly reify   'D:\\SCARAVISION\\iot-panel\\node_modules\\lightningcss-android-arm64'
+194 silly reify ]
+195 verbose reify failed optional dependency D:\SCARAVISION\iot-panel\node_modules\@unrs\resolver-binding-win32-ia32-msvc
+196 silly reify mark deleted [
+196 silly reify   'D:\\SCARAVISION\\iot-panel\\node_modules\\@unrs\\resolver-binding-win32-ia32-msvc'
+196 silly reify ]
+197 verbose reify failed optional dependency D:\SCARAVISION\iot-panel\node_modules\@unrs\resolver-binding-win32-arm64-msvc
+198 silly reify mark deleted [
+198 silly reify   'D:\\SCARAVISION\\iot-panel\\node_modules\\@unrs\\resolver-binding-win32-arm64-msvc'
+198 silly reify ]
+199 verbose reify failed optional dependency D:\SCARAVISION\iot-panel\node_modules\@unrs\resolver-binding-wasm32-wasi
+200 silly reify mark deleted [
+200 silly reify   'D:\\SCARAVISION\\iot-panel\\node_modules\\@unrs\\resolver-binding-wasm32-wasi'
+200 silly reify ]
+201 verbose reify failed optional dependency D:\SCARAVISION\iot-panel\node_modules\@unrs\resolver-binding-linux-x64-musl
+202 silly reify mark deleted [
+202 silly reify   'D:\\SCARAVISION\\iot-panel\\node_modules\\@unrs\\resolver-binding-linux-x64-musl'
+202 silly reify ]
+203 verbose reify failed optional dependency D:\SCARAVISION\iot-panel\node_modules\@unrs\resolver-binding-linux-x64-gnu
+204 silly reify mark deleted [
+204 silly reify   'D:\\SCARAVISION\\iot-panel\\node_modules\\@unrs\\resolver-binding-linux-x64-gnu'
+204 silly reify ]
+205 verbose reify failed optional dependency D:\SCARAVISION\iot-panel\node_modules\@unrs\resolver-binding-linux-s390x-gnu
+206 silly reify mark deleted [
+206 silly reify   'D:\\SCARAVISION\\iot-panel\\node_modules\\@unrs\\resolver-binding-linux-s390x-gnu'
+206 silly reify ]
+207 verbose reify failed optional dependency D:\SCARAVISION\iot-panel\node_modules\@unrs\resolver-binding-linux-riscv64-musl
+208 silly reify mark deleted [
+208 silly reify   'D:\\SCARAVISION\\iot-panel\\node_modules\\@unrs\\resolver-binding-linux-riscv64-musl'
+208 silly reify ]
+209 verbose reify failed optional dependency D:\SCARAVISION\iot-panel\node_modules\@unrs\resolver-binding-linux-riscv64-gnu
+210 silly reify mark deleted [
+210 silly reify   'D:\\SCARAVISION\\iot-panel\\node_modules\\@unrs\\resolver-binding-linux-riscv64-gnu'
+210 silly reify ]
+211 verbose reify failed optional dependency D:\SCARAVISION\iot-panel\node_modules\@unrs\resolver-binding-linux-ppc64-gnu
+212 silly reify mark deleted [
+212 silly reify   'D:\\SCARAVISION\\iot-panel\\node_modules\\@unrs\\resolver-binding-linux-ppc64-gnu'
+212 silly reify ]
+213 verbose reify failed optional dependency D:\SCARAVISION\iot-panel\node_modules\@unrs\resolver-binding-linux-arm64-musl
+214 silly reify mark deleted [
+214 silly reify   'D:\\SCARAVISION\\iot-panel\\node_modules\\@unrs\\resolver-binding-linux-arm64-musl'
+214 silly reify ]
+215 verbose reify failed optional dependency D:\SCARAVISION\iot-panel\node_modules\@unrs\resolver-binding-linux-arm64-gnu
+216 silly reify mark deleted [
+216 silly reify   'D:\\SCARAVISION\\iot-panel\\node_modules\\@unrs\\resolver-binding-linux-arm64-gnu'
+216 silly reify ]
+217 verbose reify failed optional dependency D:\SCARAVISION\iot-panel\node_modules\@unrs\resolver-binding-linux-arm-musleabihf
+218 silly reify mark deleted [
+218 silly reify   'D:\\SCARAVISION\\iot-panel\\node_modules\\@unrs\\resolver-binding-linux-arm-musleabihf'
+218 silly reify ]
+219 verbose reify failed optional dependency D:\SCARAVISION\iot-panel\node_modules\@unrs\resolver-binding-linux-arm-gnueabihf
+220 silly reify mark deleted [
+220 silly reify   'D:\\SCARAVISION\\iot-panel\\node_modules\\@unrs\\resolver-binding-linux-arm-gnueabihf'
+220 silly reify ]
+221 verbose reify failed optional dependency D:\SCARAVISION\iot-panel\node_modules\@unrs\resolver-binding-freebsd-x64
+222 silly reify mark deleted [
+222 silly reify   'D:\\SCARAVISION\\iot-panel\\node_modules\\@unrs\\resolver-binding-freebsd-x64'
+222 silly reify ]
+223 verbose reify failed optional dependency D:\SCARAVISION\iot-panel\node_modules\@unrs\resolver-binding-darwin-x64
+224 silly reify mark deleted [
+224 silly reify   'D:\\SCARAVISION\\iot-panel\\node_modules\\@unrs\\resolver-binding-darwin-x64'
+224 silly reify ]
+225 verbose reify failed optional dependency D:\SCARAVISION\iot-panel\node_modules\@unrs\resolver-binding-darwin-arm64
+226 silly reify mark deleted [
+226 silly reify   'D:\\SCARAVISION\\iot-panel\\node_modules\\@unrs\\resolver-binding-darwin-arm64'
+226 silly reify ]
+227 verbose reify failed optional dependency D:\SCARAVISION\iot-panel\node_modules\@unrs\resolver-binding-android-arm64
+228 silly reify mark deleted [
+228 silly reify   'D:\\SCARAVISION\\iot-panel\\node_modules\\@unrs\\resolver-binding-android-arm64'
+228 silly reify ]
+229 verbose reify failed optional dependency D:\SCARAVISION\iot-panel\node_modules\@unrs\resolver-binding-android-arm-eabi
+230 silly reify mark deleted [
+230 silly reify   'D:\\SCARAVISION\\iot-panel\\node_modules\\@unrs\\resolver-binding-android-arm-eabi'
+230 silly reify ]
+231 verbose reify failed optional dependency D:\SCARAVISION\iot-panel\node_modules\@tailwindcss\oxide-win32-arm64-msvc
+232 silly reify mark deleted [
+232 silly reify   'D:\\SCARAVISION\\iot-panel\\node_modules\\@tailwindcss\\oxide-win32-arm64-msvc'
+232 silly reify ]
+233 verbose reify failed optional dependency D:\SCARAVISION\iot-panel\node_modules\@tailwindcss\oxide-linux-x64-musl
+234 silly reify mark deleted [
+234 silly reify   'D:\\SCARAVISION\\iot-panel\\node_modules\\@tailwindcss\\oxide-linux-x64-musl'
+234 silly reify ]
+235 verbose reify failed optional dependency D:\SCARAVISION\iot-panel\node_modules\@tailwindcss\oxide-linux-x64-gnu
+236 silly reify mark deleted [
+236 silly reify   'D:\\SCARAVISION\\iot-panel\\node_modules\\@tailwindcss\\oxide-linux-x64-gnu'
+236 silly reify ]
+237 verbose reify failed optional dependency D:\SCARAVISION\iot-panel\node_modules\@tailwindcss\oxide-linux-arm64-musl
+238 silly reify mark deleted [
+238 silly reify   'D:\\SCARAVISION\\iot-panel\\node_modules\\@tailwindcss\\oxide-linux-arm64-musl'
+238 silly reify ]
+239 verbose reify failed optional dependency D:\SCARAVISION\iot-panel\node_modules\@tailwindcss\oxide-linux-arm64-gnu
+240 silly reify mark deleted [
+240 silly reify   'D:\\SCARAVISION\\iot-panel\\node_modules\\@tailwindcss\\oxide-linux-arm64-gnu'
+240 silly reify ]
+241 verbose reify failed optional dependency D:\SCARAVISION\iot-panel\node_modules\@tailwindcss\oxide-linux-arm-gnueabihf
+242 silly reify mark deleted [
+242 silly reify   'D:\\SCARAVISION\\iot-panel\\node_modules\\@tailwindcss\\oxide-linux-arm-gnueabihf'
+242 silly reify ]
+243 verbose reify failed optional dependency D:\SCARAVISION\iot-panel\node_modules\@tailwindcss\oxide-freebsd-x64
+244 silly reify mark deleted [
+244 silly reify   'D:\\SCARAVISION\\iot-panel\\node_modules\\@tailwindcss\\oxide-freebsd-x64'
+244 silly reify ]
+245 verbose reify failed optional dependency D:\SCARAVISION\iot-panel\node_modules\@tailwindcss\oxide-darwin-x64
+246 silly reify mark deleted [
+246 silly reify   'D:\\SCARAVISION\\iot-panel\\node_modules\\@tailwindcss\\oxide-darwin-x64'
+246 silly reify ]
+247 verbose reify failed optional dependency D:\SCARAVISION\iot-panel\node_modules\@tailwindcss\oxide-darwin-arm64
+248 silly reify mark deleted [
+248 silly reify   'D:\\SCARAVISION\\iot-panel\\node_modules\\@tailwindcss\\oxide-darwin-arm64'
+248 silly reify ]
+249 verbose reify failed optional dependency D:\SCARAVISION\iot-panel\node_modules\@tailwindcss\oxide-android-arm64
+250 silly reify mark deleted [
+250 silly reify   'D:\\SCARAVISION\\iot-panel\\node_modules\\@tailwindcss\\oxide-android-arm64'
+250 silly reify ]
+251 verbose reify failed optional dependency D:\SCARAVISION\iot-panel\node_modules\@next\swc-win32-arm64-msvc
+252 silly reify mark deleted [
+252 silly reify   'D:\\SCARAVISION\\iot-panel\\node_modules\\@next\\swc-win32-arm64-msvc'
+252 silly reify ]
+253 verbose reify failed optional dependency D:\SCARAVISION\iot-panel\node_modules\@next\swc-linux-x64-musl
+254 silly reify mark deleted [
+254 silly reify   'D:\\SCARAVISION\\iot-panel\\node_modules\\@next\\swc-linux-x64-musl'
+254 silly reify ]
+255 verbose reify failed optional dependency D:\SCARAVISION\iot-panel\node_modules\@next\swc-linux-x64-gnu
+256 silly reify mark deleted [
+256 silly reify   'D:\\SCARAVISION\\iot-panel\\node_modules\\@next\\swc-linux-x64-gnu'
+256 silly reify ]
+257 verbose reify failed optional dependency D:\SCARAVISION\iot-panel\node_modules\@next\swc-linux-arm64-musl
+258 silly reify mark deleted [
+258 silly reify   'D:\\SCARAVISION\\iot-panel\\node_modules\\@next\\swc-linux-arm64-musl'
+258 silly reify ]
+259 verbose reify failed optional dependency D:\SCARAVISION\iot-panel\node_modules\@next\swc-linux-arm64-gnu
+260 silly reify mark deleted [
+260 silly reify   'D:\\SCARAVISION\\iot-panel\\node_modules\\@next\\swc-linux-arm64-gnu'
+260 silly reify ]
+261 verbose reify failed optional dependency D:\SCARAVISION\iot-panel\node_modules\@next\swc-darwin-x64
+262 silly reify mark deleted [ 'D:\\SCARAVISION\\iot-panel\\node_modules\\@next\\swc-darwin-x64' ]
+263 verbose reify failed optional dependency D:\SCARAVISION\iot-panel\node_modules\@next\swc-darwin-arm64
+264 silly reify mark deleted [ 'D:\\SCARAVISION\\iot-panel\\node_modules\\@next\\swc-darwin-arm64' ]
+265 verbose reify failed optional dependency D:\SCARAVISION\iot-panel\node_modules\@img\sharp-win32-ia32
+266 silly reify mark deleted [ 'D:\\SCARAVISION\\iot-panel\\node_modules\\@img\\sharp-win32-ia32' ]
+267 verbose reify failed optional dependency D:\SCARAVISION\iot-panel\node_modules\@img\sharp-win32-arm64
+268 silly reify mark deleted [ 'D:\\SCARAVISION\\iot-panel\\node_modules\\@img\\sharp-win32-arm64' ]
+269 verbose reify failed optional dependency D:\SCARAVISION\iot-panel\node_modules\@img\sharp-wasm32
+270 silly reify mark deleted [ 'D:\\SCARAVISION\\iot-panel\\node_modules\\@img\\sharp-wasm32' ]
+271 verbose reify failed optional dependency D:\SCARAVISION\iot-panel\node_modules\@img\sharp-linuxmusl-x64
+272 silly reify mark deleted [
+272 silly reify   'D:\\SCARAVISION\\iot-panel\\node_modules\\@img\\sharp-linuxmusl-x64'
+272 silly reify ]
+273 verbose reify failed optional dependency D:\SCARAVISION\iot-panel\node_modules\@img\sharp-linuxmusl-arm64
+274 silly reify mark deleted [
+274 silly reify   'D:\\SCARAVISION\\iot-panel\\node_modules\\@img\\sharp-linuxmusl-arm64'
+274 silly reify ]
+275 verbose reify failed optional dependency D:\SCARAVISION\iot-panel\node_modules\@img\sharp-linux-x64
+276 silly reify mark deleted [ 'D:\\SCARAVISION\\iot-panel\\node_modules\\@img\\sharp-linux-x64' ]
+277 verbose reify failed optional dependency D:\SCARAVISION\iot-panel\node_modules\@img\sharp-linux-s390x
+278 silly reify mark deleted [ 'D:\\SCARAVISION\\iot-panel\\node_modules\\@img\\sharp-linux-s390x' ]
+279 verbose reify failed optional dependency D:\SCARAVISION\iot-panel\node_modules\@img\sharp-linux-riscv64
+280 silly reify mark deleted [
+280 silly reify   'D:\\SCARAVISION\\iot-panel\\node_modules\\@img\\sharp-linux-riscv64'
+280 silly reify ]
+281 verbose reify failed optional dependency D:\SCARAVISION\iot-panel\node_modules\@img\sharp-linux-ppc64
+282 silly reify mark deleted [ 'D:\\SCARAVISION\\iot-panel\\node_modules\\@img\\sharp-linux-ppc64' ]
+283 verbose reify failed optional dependency D:\SCARAVISION\iot-panel\node_modules\@img\sharp-linux-arm64
+284 silly reify mark deleted [ 'D:\\SCARAVISION\\iot-panel\\node_modules\\@img\\sharp-linux-arm64' ]
+285 verbose reify failed optional dependency D:\SCARAVISION\iot-panel\node_modules\@img\sharp-linux-arm
+286 silly reify mark deleted [ 'D:\\SCARAVISION\\iot-panel\\node_modules\\@img\\sharp-linux-arm' ]
+287 verbose reify failed optional dependency D:\SCARAVISION\iot-panel\node_modules\@img\sharp-libvips-linuxmusl-x64
+288 silly reify mark deleted [
+288 silly reify   'D:\\SCARAVISION\\iot-panel\\node_modules\\@img\\sharp-libvips-linuxmusl-x64'
+288 silly reify ]
+289 verbose reify failed optional dependency D:\SCARAVISION\iot-panel\node_modules\@img\sharp-libvips-linuxmusl-arm64
+290 silly reify mark deleted [
+290 silly reify   'D:\\SCARAVISION\\iot-panel\\node_modules\\@img\\sharp-libvips-linuxmusl-arm64'
+290 silly reify ]
+291 verbose reify failed optional dependency D:\SCARAVISION\iot-panel\node_modules\@img\sharp-libvips-linux-x64
+292 silly reify mark deleted [
+292 silly reify   'D:\\SCARAVISION\\iot-panel\\node_modules\\@img\\sharp-libvips-linux-x64'
+292 silly reify ]
+293 verbose reify failed optional dependency D:\SCARAVISION\iot-panel\node_modules\@img\sharp-libvips-linux-s390x
+294 silly reify mark deleted [
+294 silly reify   'D:\\SCARAVISION\\iot-panel\\node_modules\\@img\\sharp-libvips-linux-s390x'
+294 silly reify ]
+295 verbose reify failed optional dependency D:\SCARAVISION\iot-panel\node_modules\@img\sharp-libvips-linux-riscv64
+296 silly reify mark deleted [
+296 silly reify   'D:\\SCARAVISION\\iot-panel\\node_modules\\@img\\sharp-libvips-linux-riscv64'
+296 silly reify ]
+297 verbose reify failed optional dependency D:\SCARAVISION\iot-panel\node_modules\@img\sharp-libvips-linux-ppc64
+298 silly reify mark deleted [
+298 silly reify   'D:\\SCARAVISION\\iot-panel\\node_modules\\@img\\sharp-libvips-linux-ppc64'
+298 silly reify ]
+299 verbose reify failed optional dependency D:\SCARAVISION\iot-panel\node_modules\@img\sharp-libvips-linux-arm64
+300 silly reify mark deleted [
+300 silly reify   'D:\\SCARAVISION\\iot-panel\\node_modules\\@img\\sharp-libvips-linux-arm64'
+300 silly reify ]
+301 verbose reify failed optional dependency D:\SCARAVISION\iot-panel\node_modules\@img\sharp-libvips-linux-arm
+302 silly reify mark deleted [
+302 silly reify   'D:\\SCARAVISION\\iot-panel\\node_modules\\@img\\sharp-libvips-linux-arm'
+302 silly reify ]
+303 verbose reify failed optional dependency D:\SCARAVISION\iot-panel\node_modules\@img\sharp-libvips-darwin-x64
+304 silly reify mark deleted [
+304 silly reify   'D:\\SCARAVISION\\iot-panel\\node_modules\\@img\\sharp-libvips-darwin-x64'
+304 silly reify ]
+305 verbose reify failed optional dependency D:\SCARAVISION\iot-panel\node_modules\@img\sharp-libvips-darwin-arm64
+306 silly reify mark deleted [
+306 silly reify   'D:\\SCARAVISION\\iot-panel\\node_modules\\@img\\sharp-libvips-darwin-arm64'
+306 silly reify ]
+307 verbose reify failed optional dependency D:\SCARAVISION\iot-panel\node_modules\@img\sharp-darwin-x64
+308 silly reify mark deleted [ 'D:\\SCARAVISION\\iot-panel\\node_modules\\@img\\sharp-darwin-x64' ]
+309 verbose reify failed optional dependency D:\SCARAVISION\iot-panel\node_modules\@img\sharp-darwin-arm64
+310 silly reify mark deleted [
+310 silly reify   'D:\\SCARAVISION\\iot-panel\\node_modules\\@img\\sharp-darwin-arm64'
+310 silly reify ]
+311 silly tarball no local data for is-fullwidth-code-point@https://registry.npmjs.org/is-fullwidth-code-point/-/is-fullwidth-code-point-3.0.0.tgz. Extracting by manifest.
+312 silly tarball no local data for sprintf-js@https://registry.npmjs.org/sprintf-js/-/sprintf-js-1.0.3.tgz. Extracting by manifest.
+313 silly tarball no local data for wrap-ansi@https://registry.npmjs.org/wrap-ansi/-/wrap-ansi-7.0.0.tgz. Extracting by manifest.
+314 silly tarball no local data for yargs-parser@https://registry.npmjs.org/yargs-parser/-/yargs-parser-20.2.9.tgz. Extracting by manifest.
+315 silly tarball no local data for y18n@https://registry.npmjs.org/y18n/-/y18n-5.0.8.tgz. Extracting by manifest.
+316 silly tarball no local data for ansi-regex@https://registry.npmjs.org/ansi-regex/-/ansi-regex-5.0.1.tgz. Extracting by manifest.
+317 silly tarball no local data for strip-ansi@https://registry.npmjs.org/strip-ansi/-/strip-ansi-6.0.1.tgz. Extracting by manifest.
+318 silly tarball no local data for string-width@https://registry.npmjs.org/string-width/-/string-width-4.2.3.tgz. Extracting by manifest.
+319 silly tarball no local data for require-directory@https://registry.npmjs.org/require-directory/-/require-directory-2.1.1.tgz. Extracting by manifest.
+320 silly tarball no local data for webidl-conversions@https://registry.npmjs.org/webidl-conversions/-/webidl-conversions-3.0.1.tgz. Extracting by manifest.
+321 silly tarball no local data for get-caller-file@https://registry.npmjs.org/get-caller-file/-/get-caller-file-2.0.5.tgz. Extracting by manifest.
+322 silly tarball no local data for cliui@https://registry.npmjs.org/cliui/-/cliui-7.0.4.tgz. Extracting by manifest.
+323 silly tarball no local data for wrappy@https://registry.npmjs.org/wrappy/-/wrappy-1.0.2.tgz. Extracting by manifest.
+324 silly tarball no local data for once@https://registry.npmjs.org/once/-/once-1.4.0.tgz. Extracting by manifest.
+325 silly tarball no local data for path-is-absolute@https://registry.npmjs.org/path-is-absolute/-/path-is-absolute-1.0.1.tgz. Extracting by manifest.
+326 silly tarball no local data for inflight@https://registry.npmjs.org/inflight/-/inflight-1.0.6.tgz. Extracting by manifest.
+327 silly tarball no local data for tr46@https://registry.npmjs.org/tr46/-/tr46-0.0.3.tgz. Extracting by manifest.
+328 silly tarball no local data for whatwg-url@https://registry.npmjs.org/whatwg-url/-/whatwg-url-5.0.0.tgz. Extracting by manifest.
+329 silly tarball no local data for combined-stream@https://registry.npmjs.org/combined-stream/-/combined-stream-1.0.8.tgz. Extracting by manifest.
+330 silly tarball no local data for fs.realpath@https://registry.npmjs.org/fs.realpath/-/fs.realpath-1.0.0.tgz. Extracting by manifest.
+331 silly tarball no local data for glob@https://registry.npmjs.org/glob/-/glob-7.2.3.tgz. Extracting by manifest.
+332 silly tarball no local data for mime-types@https://registry.npmjs.org/mime-types/-/mime-types-2.1.35.tgz. Extracting by manifest.
+333 silly tarball no local data for mime-db@https://registry.npmjs.org/mime-db/-/mime-db-1.52.0.tgz. Extracting by manifest.
+334 silly tarball no local data for form-data@https://registry.npmjs.org/form-data/-/form-data-4.0.4.tgz. Extracting by manifest.
+335 silly tarball no local data for delayed-stream@https://registry.npmjs.org/delayed-stream/-/delayed-stream-1.0.0.tgz. Extracting by manifest.
+336 silly tarball no local data for @types/long@https://registry.npmjs.org/@types/long/-/long-4.0.2.tgz. Extracting by manifest.
+337 silly tarball no local data for @types/node-fetch@https://registry.npmjs.org/@types/node-fetch/-/node-fetch-2.6.13.tgz. Extracting by manifest.
+338 silly tarball no local data for @types/seedrandom@https://registry.npmjs.org/@types/seedrandom/-/seedrandom-2.4.34.tgz. Extracting by manifest.
+339 silly tarball no local data for asynckit@https://registry.npmjs.org/asynckit/-/asynckit-0.4.0.tgz. Extracting by manifest.
+340 silly tarball no local data for node-fetch@https://registry.npmjs.org/node-fetch/-/node-fetch-2.6.13.tgz. Extracting by manifest.
+341 silly tarball no local data for long@https://registry.npmjs.org/long/-/long-4.0.0.tgz. Extracting by manifest.
+342 silly tarball no local data for @webgpu/types@https://registry.npmjs.org/@webgpu/types/-/types-0.1.38.tgz. Extracting by manifest.
+343 silly tarball no local data for @types/offscreencanvas@https://registry.npmjs.org/@types/offscreencanvas/-/offscreencanvas-2019.3.0.tgz. Extracting by manifest.
+344 silly tarball no local data for yargs@https://registry.npmjs.org/yargs/-/yargs-16.2.0.tgz. Extracting by manifest.
+345 silly tarball no local data for regenerator-runtime@https://registry.npmjs.org/regenerator-runtime/-/regenerator-runtime-0.13.11.tgz. Extracting by manifest.
+346 silly tarball no local data for @tensorflow/tfjs-backend-cpu@https://registry.npmjs.org/@tensorflow/tfjs-backend-cpu/-/tfjs-backend-cpu-4.22.0.tgz. Extracting by manifest.
+347 silly tarball no local data for @tensorflow/tfjs-layers@https://registry.npmjs.org/@tensorflow/tfjs-layers/-/tfjs-layers-4.22.0.tgz. Extracting by manifest.
+348 silly tarball no local data for core-js@https://registry.npmjs.org/core-js/-/core-js-3.29.1.tgz. Extracting by manifest.
+349 silly tarball no local data for seedrandom@https://registry.npmjs.org/seedrandom/-/seedrandom-3.0.5.tgz. Extracting by manifest.
+350 silly tarball no local data for react-webcam@https://registry.npmjs.org/react-webcam/-/react-webcam-7.2.0.tgz. Extracting by manifest.
+351 silly tarball no local data for rimraf@https://registry.npmjs.org/rimraf/-/rimraf-3.0.2.tgz. Extracting by manifest.
+352 silly tarball no local data for @tensorflow/tfjs@https://registry.npmjs.org/@tensorflow/tfjs/-/tfjs-4.22.0.tgz. Extracting by manifest.
+353 silly tarball no local data for @tensorflow/tfjs-data@https://registry.npmjs.org/@tensorflow/tfjs-data/-/tfjs-data-4.22.0.tgz. Extracting by manifest.
+354 silly tarball no local data for @tensorflow/tfjs-converter@https://registry.npmjs.org/@tensorflow/tfjs-converter/-/tfjs-converter-4.22.0.tgz. Extracting by manifest.
+355 silly tarball no local data for @tensorflow/tfjs-backend-webgl@https://registry.npmjs.org/@tensorflow/tfjs-backend-webgl/-/tfjs-backend-webgl-4.22.0.tgz. Extracting by manifest.
+356 silly tarball no local data for @tensorflow/tfjs-core@https://registry.npmjs.org/@tensorflow/tfjs-core/-/tfjs-core-4.22.0.tgz. Extracting by manifest.
+357 silly tarball no local data for @tensorflow-models/handpose@https://registry.npmjs.org/@tensorflow-models/handpose/-/handpose-0.1.0.tgz. Extracting by manifest.
+358 silly tarball no local data for @types/offscreencanvas@https://registry.npmjs.org/@types/offscreencanvas/-/offscreencanvas-2019.7.3.tgz. Extracting by manifest.
+359 silly tarball no local data for emoji-regex@https://registry.npmjs.org/emoji-regex/-/emoji-regex-8.0.0.tgz. Extracting by manifest.
+360 silly tarball no local data for argparse@https://registry.npmjs.org/argparse/-/argparse-1.0.10.tgz. Extracting by manifest.
+361 http fetch GET 200 https://registry.npmjs.org/wrappy/-/wrappy-1.0.2.tgz 110ms (cache miss)
+362 http fetch GET 200 https://registry.npmjs.org/string-width/-/string-width-4.2.3.tgz 115ms (cache miss)
+363 http fetch GET 200 https://registry.npmjs.org/wrap-ansi/-/wrap-ansi-7.0.0.tgz 118ms (cache miss)
+364 http fetch GET 200 https://registry.npmjs.org/once/-/once-1.4.0.tgz 121ms (cache miss)
+365 http fetch GET 200 https://registry.npmjs.org/ansi-regex/-/ansi-regex-5.0.1.tgz 125ms (cache miss)
+366 http fetch GET 200 https://registry.npmjs.org/webidl-conversions/-/webidl-conversions-3.0.1.tgz 130ms (cache miss)
+367 http fetch GET 200 https://registry.npmjs.org/strip-ansi/-/strip-ansi-6.0.1.tgz 133ms (cache miss)
+368 http fetch GET 200 https://registry.npmjs.org/is-fullwidth-code-point/-/is-fullwidth-code-point-3.0.0.tgz 145ms (cache miss)
+369 http fetch GET 200 https://registry.npmjs.org/get-caller-file/-/get-caller-file-2.0.5.tgz 148ms (cache miss)
+370 http fetch GET 200 https://registry.npmjs.org/inflight/-/inflight-1.0.6.tgz 155ms (cache miss)
+371 http fetch GET 200 https://registry.npmjs.org/path-is-absolute/-/path-is-absolute-1.0.1.tgz 156ms (cache miss)
+372 http fetch GET 200 https://registry.npmjs.org/require-directory/-/require-directory-2.1.1.tgz 161ms (cache miss)
+373 warn deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+374 http fetch GET 200 https://registry.npmjs.org/mime-types/-/mime-types-2.1.35.tgz 172ms (cache miss)
+375 http fetch GET 200 https://registry.npmjs.org/delayed-stream/-/delayed-stream-1.0.0.tgz 178ms (cache miss)
+376 http fetch GET 200 https://registry.npmjs.org/fs.realpath/-/fs.realpath-1.0.0.tgz 182ms (cache miss)
+377 http fetch GET 200 https://registry.npmjs.org/combined-stream/-/combined-stream-1.0.8.tgz 183ms (cache miss)
+378 http fetch GET 200 https://registry.npmjs.org/@types/long/-/long-4.0.2.tgz 181ms (cache miss)
+379 http fetch GET 200 https://registry.npmjs.org/y18n/-/y18n-5.0.8.tgz 192ms (cache miss)
+380 http fetch GET 200 https://registry.npmjs.org/glob/-/glob-7.2.3.tgz 197ms (cache miss)
+381 http fetch GET 200 https://registry.npmjs.org/cliui/-/cliui-7.0.4.tgz 202ms (cache miss)
+382 warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+383 http fetch GET 200 https://registry.npmjs.org/whatwg-url/-/whatwg-url-5.0.0.tgz 206ms (cache miss)
+384 http fetch GET 200 https://registry.npmjs.org/yargs-parser/-/yargs-parser-20.2.9.tgz 213ms (cache miss)
+385 http fetch GET 200 https://registry.npmjs.org/mime-db/-/mime-db-1.52.0.tgz 215ms (cache miss)
+386 http fetch GET 200 https://registry.npmjs.org/regenerator-runtime/-/regenerator-runtime-0.13.11.tgz 211ms (cache miss)
+387 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 257ms
+388 silly audit report {}
+389 http fetch GET 200 https://registry.npmjs.org/form-data/-/form-data-4.0.4.tgz 229ms (cache miss)
+390 http fetch GET 200 https://registry.npmjs.org/node-fetch/-/node-fetch-2.6.13.tgz 228ms (cache miss)
+391 http fetch GET 200 https://registry.npmjs.org/sprintf-js/-/sprintf-js-1.0.3.tgz 250ms (cache miss)
+392 http fetch GET 200 https://registry.npmjs.org/tr46/-/tr46-0.0.3.tgz 249ms (cache miss)
+393 http fetch GET 200 https://registry.npmjs.org/@types/node-fetch/-/node-fetch-2.6.13.tgz 247ms (cache miss)
+394 http fetch GET 200 https://registry.npmjs.org/long/-/long-4.0.0.tgz 245ms (cache miss)
+395 http fetch GET 200 https://registry.npmjs.org/rimraf/-/rimraf-3.0.2.tgz 244ms (cache miss)
+396 warn deprecated rimraf@3.0.2: Rimraf versions prior to v4 are no longer supported
+397 http fetch GET 200 https://registry.npmjs.org/asynckit/-/asynckit-0.4.0.tgz 262ms (cache miss)
+398 http fetch GET 200 https://registry.npmjs.org/react-webcam/-/react-webcam-7.2.0.tgz 271ms (cache miss)
+399 http fetch GET 200 https://registry.npmjs.org/emoji-regex/-/emoji-regex-8.0.0.tgz 294ms (cache miss)
+400 http fetch GET 200 https://registry.npmjs.org/@types/offscreencanvas/-/offscreencanvas-2019.7.3.tgz 296ms (cache miss)
+401 http fetch GET 200 https://registry.npmjs.org/seedrandom/-/seedrandom-3.0.5.tgz 368ms (cache miss)
+402 http fetch GET 200 https://registry.npmjs.org/argparse/-/argparse-1.0.10.tgz 376ms (cache miss)
+403 http fetch GET 200 https://registry.npmjs.org/yargs/-/yargs-16.2.0.tgz 382ms (cache miss)
+404 http fetch GET 200 https://registry.npmjs.org/@types/seedrandom/-/seedrandom-2.4.34.tgz 613ms (cache miss)
+405 http fetch GET 200 https://registry.npmjs.org/@webgpu/types/-/types-0.1.38.tgz 629ms (cache miss)
+406 http fetch GET 200 https://registry.npmjs.org/@types/offscreencanvas/-/offscreencanvas-2019.3.0.tgz 711ms (cache miss)
+407 http fetch GET 200 https://registry.npmjs.org/@tensorflow-models/handpose/-/handpose-0.1.0.tgz 988ms (cache miss)
+408 http fetch GET 200 https://registry.npmjs.org/@tensorflow/tfjs-data/-/tfjs-data-4.22.0.tgz 1436ms (cache miss)
+409 http fetch GET 200 https://registry.npmjs.org/@tensorflow/tfjs-backend-cpu/-/tfjs-backend-cpu-4.22.0.tgz 2287ms (cache miss)
+410 http fetch GET 200 https://registry.npmjs.org/core-js/-/core-js-3.29.1.tgz 5502ms (cache miss)
+411 http fetch GET 200 https://registry.npmjs.org/@tensorflow/tfjs-backend-webgl/-/tfjs-backend-webgl-4.22.0.tgz 58318ms (cache miss)
+412 http fetch GET 200 https://registry.npmjs.org/@tensorflow/tfjs-core/-/tfjs-core-4.22.0.tgz 80809ms (cache miss)
+413 warn cleanup Failed to remove some directories [
+413 warn cleanup   [
+413 warn cleanup     '\\\\?\\D:\\SCARAVISION\\iot-panel\\node_modules\\@tensorflow\\tfjs-layers',
+413 warn cleanup     [Error: EPERM: operation not permitted, rmdir 'D:\SCARAVISION\iot-panel\node_modules\@tensorflow\tfjs-layers'] {
+413 warn cleanup       errno: -4048,
+413 warn cleanup       code: 'EPERM',
+413 warn cleanup       syscall: 'rmdir',
+413 warn cleanup       path: 'D:\\SCARAVISION\\iot-panel\\node_modules\\@tensorflow\\tfjs-layers'
+413 warn cleanup     }
+413 warn cleanup   ]
+413 warn cleanup ]
+414 verbose stack Error: read ECONNRESET
+414 verbose stack     at TLSWrap.onStreamRead (node:internal/stream_base_commons:216:20)
+415 verbose cwd D:\SCARAVISION\iot-panel
+416 verbose Windows_NT 10.0.26100
+417 verbose node v22.15.0
+418 verbose npm  v10.7.0
+419 error code ECONNRESET
+420 error syscall read
+421 error errno -4077
+422 error network read ECONNRESET
+423 error network This is a problem related to network connectivity.
+423 error network In most cases you are behind a proxy or have bad network settings.
+423 error network
+423 error network If you are behind a proxy, please make sure that the
+423 error network 'proxy' config is set properly.  See: 'npm help config'
+424 verbose exit -4077
+425 verbose code -4077
+426 silly unfinished npm timer reify 1762695468196
+427 silly unfinished npm timer reify:unpack 1762695476901
+428 silly unfinished npm timer reifyNode:node_modules/@tensorflow/tfjs-layers 1762695476901
+429 silly unfinished npm timer reifyNode:node_modules/@tensorflow/tfjs 1762695476901
+430 silly unfinished npm timer reifyNode:node_modules/@tensorflow/tfjs-converter 1762695476901
+431 error A complete log of this run can be found in: D:\SCARAVISION\iot-panel\.npm-cache\_logs\2025-11-09T13_37_47_058Z-debug-0.log
